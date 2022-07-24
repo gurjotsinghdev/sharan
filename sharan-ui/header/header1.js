@@ -1,12 +1,23 @@
 import Head from 'next/head'
 import Link from 'next/link'
-
+import Image from 'next/image'
+import sharan from "../../public/sharan.png"
 
 export default function Header1() {
     return (
         <>
             <div className="header1-container">
-                <div className="logo">Logo</div>
+                <div>
+                    <Image 
+                        src={sharan}
+                        alt="Sharan logo"
+                        className="logo"
+                        width={80}
+                        height={80}
+                
+                    />
+                </div>
+                
                 <div className="primary-menu">
                     <div className="hamburger" onClick={ () => { document.getElementsByClassName('primary-nav-desktop')[0].classList.toggle('active')  } }>
                         <span className="bar line1"></span>
@@ -34,12 +45,16 @@ export default function Header1() {
     
             }
 
+            .logo {
+                width: 10px;
+            }
+
             .hamburger{
                 width: 35px;
                 display: block;
                 position: absolute;
-                top: 15px;
-                right: 25px;
+                top: 25px;
+                right: 30px;
                 flex-direction: column;
                 justify-content: space-between;
                 width: 30px;
@@ -97,17 +112,12 @@ export default function Header1() {
                 .primary-nav-desktop {
                     display: flex;
                     gap: 25px;
-                    
-                    
+                    align-items: center;
                 }
 
                 .hamburger {
                     display: none;
                 }
-
-            
-
-                .
 
               }
             `}</style>
