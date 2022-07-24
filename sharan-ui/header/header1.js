@@ -27,10 +27,9 @@ export default function Header1() {
 
                     </div>
                     <nav className="primary-nav-desktop">
-                        <Link href="#"><a className="nav-link">Aboutaboutabout</a></Link>
-                        <Link href="#"><a className="nav-link">About</a></Link>
-                        <Link href="#"><a className="nav-link">About</a></Link>
-                        <Link href="#"><a className="nav-link">About</a></Link>
+                        <Link href="#"><a className="nav-link">Docs</a></Link>
+                        <Link href="#"><a className="nav-link">Examples</a></Link>
+                        <Link href="#"><a className="nav-link">Contributors</a></Link>
 
                     </nav>
                 </div>
