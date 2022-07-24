@@ -1,14 +1,17 @@
-# Features
+## Features
 
-# Coding Style
+Typescript support
+Next.js Premium Template Kit
 
-# Getting Started
+## Coding Style
 
-# Clone Repo
+## Getting Started
 
-# Usage
+## Clone Repo
 
-# Checklist
+## Usage
 
-# Deployment
+## Checklist
+
+## Deployment
 
