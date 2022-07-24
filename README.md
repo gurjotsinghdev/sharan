@@ -1,7 +1,9 @@
+# Sharan - Next.js Premium Kit
+
 ## Features
 
 Typescript support
-Next.js Premium Template Kit
+Next.js Premium Kit
 
 ## Coding Style
 
