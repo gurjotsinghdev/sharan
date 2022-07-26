@@ -1,4 +1,4 @@
-# Sharan - Next.js Premium Kit
+# Sharan - Premium Next.js Starter Kit
 
 ## Features
 
